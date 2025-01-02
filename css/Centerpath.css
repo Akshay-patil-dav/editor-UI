@@ -1,7 +1,7 @@
 /* ************* */
 
 .resizable-box-unique {
-    width: 250px;
+    width: 400px;
     height: 100%;
     position: absolute;
     box-sizing: border-box;
@@ -10,7 +10,7 @@
     box-sizing: border-box;
     border: 2px solid rgb(39, 39, 39);
     left: 50px;
-    display: none;
+    /* display: none; */
 
 }
 
@@ -69,3 +69,13 @@
     left: 0px;
 
 }
+
+#exitfoldermen{
+   
+}
+
+.ridmenlef{
+    position: absolute;
+    right: 0;
+}
+

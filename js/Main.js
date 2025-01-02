@@ -75,6 +75,13 @@ $(document).ready(function(){
     });
   });
 
+
+  $(document).ready(function(){
+    $("#exitfoldermen").click(function(){
+      $("#uniqueResizableBox").toggle();
+    });
+  });
+
 //   **************************************
 $(document).ready(function () {
     let isResizing = false;
