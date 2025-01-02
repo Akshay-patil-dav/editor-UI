@@ -1,0 +1,85 @@
+.top-nav {
+    background-color: red;
+    width: 1005;
+    height: 50px;
+    background-color: rgb(44, 44, 44);
+}
+
+
+.leftnav {
+    background-color: transparent;
+    position: absolute;
+    left: 0px;
+}
+
+.logo {
+    width: 2%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    background-color: transparent;
+}
+
+.menu>svg {
+    color: white;
+}
+
+.box-pro {
+    background-color: rgb(52, 135, 230);
+    color: white;
+    padding: 3px;
+    width: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.dropprofile {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+}
+.dropprofile > b{
+   margin: 4px 0px;
+}
+
+.dropprofile:hover {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.07);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.7px);
+    -webkit-backdrop-filter: blur(8.7px);
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.menudrop{
+    background-color: rgb(44, 44, 44);
+}
+
+
+.rightnav {
+    background-color: transparent;
+    /* padding: 20px; */
+    width: 440px;
+    position: absolute;
+    right: 0px;
+}
+
+.run{
+    border: 0px solid;
+    background-color: transparent;
+    color: green;
+    border-radius: 10px;
+}
+.run:hover {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.07);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.7px);
+    -webkit-backdrop-filter: blur(8.7px);
+    cursor: pointer;
+
+}

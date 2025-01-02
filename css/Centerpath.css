@@ -1,0 +1,71 @@
+/* ************* */
+
+.resizable-box-unique {
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgb(44, 44, 44);
+    position: absolute;
+    box-sizing: border-box;
+    border: 2px solid rgb(39, 39, 39);
+    left: 50px;
+    display: none;
+
+}
+
+.resize-handle {
+    position: absolute;
+    background-color: transparent;
+    z-index: 10;
+}
+
+.unique-handle-top {
+    top: -5px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    cursor: ns-resize;
+}
+
+.unique-handle-right {
+    top: 0;
+    right: -5px;
+    width: 10px;
+    height: 100%;
+    cursor: ew-resize;
+}
+
+.unique-handle-bottom {
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    cursor: ns-resize;
+}
+
+.unique-handle-left {
+    top: 0;
+    left: -5px;
+    width: 10px;
+    height: 100%;
+    cursor: ew-resize;
+}
+
+/* ********************* */
+.centertext {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+.centerpath {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+
+}

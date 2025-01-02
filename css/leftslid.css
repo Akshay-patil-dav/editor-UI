@@ -1,0 +1,10 @@
+.leftslid {
+    background-color: rgb(44, 44, 44);
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    z-index: 1;
+    border:2px solid rgb(39, 39, 39);
+}
