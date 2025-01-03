@@ -16,3 +16,6 @@
     display: flex;
 }
 
+.vc{
+    z-index: 1;
+}
